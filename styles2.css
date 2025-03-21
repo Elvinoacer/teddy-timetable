@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Wrapper Main */
+.wrapper-main {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Container */
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.timetable-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #2c3e50;
+  color: #fff;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Container for Days */
+.container {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Text Styling */
+.text {
+  background-color: #e74c3c;
+  color: #fff;
+  font-weight: bold;
+}
+
+.text2 {
+  background-color: #8e44ad;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  padding: 25px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+}
